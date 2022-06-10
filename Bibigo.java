@@ -12,7 +12,7 @@ public class Bibigo {
 		double avg = 0;
 		for (i = 0; i < arr.length; i++) {
 			arr[i] = s.nextInt();
-			if (i  % 2 != 0) {
+			if (i % 2 != 0) {
 				sum += arr[i];
 			} else
 				sum1 += arr[i];
@@ -22,6 +22,7 @@ public class Bibigo {
 		System.out.println("sum : " + sum);
 		System.out.printf("avg : %.1f", avg);
 		s.close();
+		// is goooooooooooooood
 	}
 
 }
