@@ -19,6 +19,7 @@ public class Main {
 				n++;
 			}
 			System.out.println(n);
+		
 		}
 	}
 
