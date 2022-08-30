@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		Member member = new Member(s.next(),s.nextInt(),s.next());
+		Member member = new Member(s.next(),s.next(),s.next());
 		s.close();
 		System.out.println(member);
 	}
@@ -15,13 +15,13 @@ public class Main {
 
 class Member {
 	private String name;
-	private int tel;
+	private String tel;
 	private String addr;
 	
 	public Member() {
 		
 	}
-	public Member(String name, int tel, String addr) {
+	public Member(String name, String tel, String addr) {
 		this.name = name;
 		this.tel = tel;
 		this.addr = addr;
@@ -35,11 +35,11 @@ class Member {
 		this.name = name;
 	}
 
-	public int getTel() {
+	public String getTel() {
 		return tel;
 	}
 
-	public void setTel(int tel) {
+	public void setTel(String tel) {
 		this.tel = tel;
 	}
 
