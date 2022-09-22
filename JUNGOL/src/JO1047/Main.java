@@ -16,8 +16,6 @@ public class Main {
 		for (int i = 2; i < ar.length; i++) {
 			ar[i] = ar[i - 1] + ar[i - 2];
 		}
-
 		System.out.println(ar[count - 1]);
-
 	}
 }
